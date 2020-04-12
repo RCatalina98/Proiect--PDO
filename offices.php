@@ -93,9 +93,7 @@
 												</li>
 												
 											</ul>
-											<ul class="actions">
-												<li><a href="map1.php" class="button icon fa-map">View map</a></li>
-											</ul>
+										
 										</div>
 										
 										</div>
@@ -123,9 +121,7 @@
 												<li class="icon fa-phone">
 													+1 707.824.0200
 												</li>
-												<ul class="actions">
-												<li><a href="map2.php" class="button icon fa-map">View map</a></li>
-											</ul>
+												
 												
 											</ul>
 										</div

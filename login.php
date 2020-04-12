@@ -6,7 +6,7 @@ $con=mysqli_connect('localhost', 'root', '', 'test') or die("Failed to connect: 
 $myusername=$_POST['myusername'];
 $mypassword=$_POST['mypassword'];
 $sql="SELECT * FROM test WHERE username='$myusername' and password='$mypassword'";
-$result = mysqli_query($con,  $sql )or die("Vai vai vai!!!");
+$result = mysqli_query($con,  $sql )or die("!!!!!!!!");
 $count=mysqli_num_rows($result);
 if($count){  
      // Get results

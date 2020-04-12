@@ -16,7 +16,7 @@
             $sum=$number1+$number2;
         ?>
         <!--remember pass-->
-       <form name="form" method="post" action="valid.php">
+       <form name="form" method="post" action="validate.php">
     <table border="0" cellpadding="10" cellspacing="1" width="500" align="center">
         <tr>
             <td align="center" colspan="2">Sign In</td>
