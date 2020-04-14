@@ -1,6 +1,5 @@
 <?php
-//try to inject :  ' or 1=1--
-// Connect to server and select database.
+
 $con=mysqli_connect('localhost', 'root', '', 'test') or die("Failed to connect: ". mysqli_error($con));
 // username and password sent from form
 $myusername=$_POST['myusername'];

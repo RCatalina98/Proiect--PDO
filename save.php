@@ -1,6 +1,6 @@
 <?php
 require_once "Connection.php";
-//proced. pentru insert
+//procedura pentru insert
 $sqle1="DROP PROCEDURE IF EXISTS insertImage";
 $sqle2="CREATE PROCEDURE images.insertImage
 (

@@ -21,16 +21,16 @@ $c2->execute();
         $stmt=$con->prepare($sql);
         $stmt->execute();
  $sql1="SELECT * FROM images.images WHERE id='{$_GET['id']}'";
- //$query=mysqli_query($con, $sql1)or die(mysqli_error($con));
+ 
 $query=$con->query($sql1);
  $row=mysqli_fetch_array($query);
 
 unlink($row["image"]);
 
- //$sql2="DELETE FROM images.images WHERE id='{$_GET['id']}'";
+ 
   $sql2="call deleteImage('{$_GET['id']}')";
 
- //=mysqli_query($con, $sql2)or die(mysqli_error($con));
+
  $query=$con->query($sql2);
 header('location:sale.php');
  ?>
